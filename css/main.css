@@ -2,3 +2,51 @@ a.nav-link-current {
     border-bottom: .2rem solid #db7a4e;
     padding-bottom: .75rem;
 }
+
+.travel-hero {
+    height: 22rem;
+    padding-right: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+}
+
+.travel-main {
+    background-color: #fefaf5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.travel-intro {
+    text-align: left;
+    width: 35rem;
+    padding-left: 6rem;
+    padding-top: 4rem;
+    
+}
+
+.travel-title {
+    color: #335576;
+    font-size: 2.125rem;
+}
+
+.travel-description {
+    color: #335576;
+    font-size: 0.9rem;
+    padding-bottom: 0.75rem;
+    width: 35rem;
+}
+
+.bottom {
+    background-color: #db7a4e;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem 2.25rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0.25rem .25rem;
+    cursor: pointer;
+    color: white;
+}
