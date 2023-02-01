@@ -1,3 +1,45 @@
 body {
-    font-family: Verdana
+    font-family: Verdana                                                                                 
 }
+
+.nav-bar {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 3rem;  
+}
+
+.nav-link {
+    text-decoration: none;  
+}
+
+.nav-logo {
+    color: #335576;
+    padding-left: 3rem; 
+}
+
+.nav-menu {
+    padding-right: 6rem;
+}
+
+.nav-menu-items {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+.nav-items {
+    list-style: none;  
+}
+
+.nav-items-link {
+    color: black;
+}
+
+
+.nav-items a:hover{
+    color : aquamarine;
+    
+}
+
