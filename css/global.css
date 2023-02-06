@@ -39,7 +39,12 @@ body {
 
 
 .nav-items a:hover{
-    color : aquamarine;
+    color : #db7a4e;
     
 }
 
+
+.nav-link-current {
+    border-bottom: .2rem solid #db7a4e;
+    padding-bottom: .75rem;
+}
