@@ -48,3 +48,52 @@ body {
     border-bottom: .2rem solid #db7a4e;
     padding-bottom: .75rem;
 }
+
+.footer {
+    background-color: #fefaf5;
+    display: flex;
+    padding-left: 4rem;
+    justify-content: space-evenly;
+}
+
+.footer-title, .footer-info {
+    color: #335576;
+}
+
+.footer-box {
+    text-align: justify
+}
+
+.hour-box {
+    display: inline-block;
+    text-align: left;
+}
+
+.hour-box__pad {
+    padding-left: 1.5rem;
+}
+
+.icons {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    top: 2rem;
+}
+
+.icons__pad {
+    padding-left: 2rem;
+}
+
+.footer-description {
+    font-size: .65rem;
+    color: #db7a4e;
+}
+
+
+.contact__pad {
+    margin-top: 2rem;
+}
+
+.footer-box__contact {
+    padding-left: 4.5rem;
+}
